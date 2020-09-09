@@ -8,8 +8,8 @@ Using the company.sql database (posted in with this assignment), write the follo
 2. For each project, list the project name, project number, and the total hours per week (by all employees) spent on that project.<br>
 
 3. For each department, retrieve the department name and the average salary of all employees working in that department.  Order the output by department number in ascending order.<br>
-<br>
-### Part 2<br>
+
+### Part 2 <br>
 Create the table and use python to automate loading of the following file into SQLite:<br>
 You can use csvreader to automatically solve the problem for you:<br>
 import csv<br>
@@ -19,6 +19,7 @@ for row in reader:<br>
     print(row)<br>
 fd.close()<br>
 <br>
+
 ### Part 3<br>
 
 We are going to work with a small extract of tweets (about 200 of them)<br>
